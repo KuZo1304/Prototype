@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\KuZo\.android\build-cache\26db47443786e0029b0994338929986c4d15fed8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\KuZo\Desktop\Prototype\app\build\intermediates\pre-dexed\debug\classes_b945c352af6a65895708dc4f1da757ea22291fca.jar" />
+    </item>
+
+</items>

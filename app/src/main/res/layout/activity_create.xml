@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kuzo.prototype.CreateActivity">
+
+    <Button
+        android:id="@+id/btSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="131dp"
+        android:onClick="onClickSubmit"
+        android:text="@string/submit" />
+
+    <Spinner
+        android:id="@+id/spPlace"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:spinnerMode="dialog"
+        style="@android:style/Widget.Holo.Light.Spinner"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="33dp"
+        android:layout_marginEnd="33dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/places"
+        android:textSize="20sp"
+        android:layout_alignBottom="@+id/spPlace"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <RadioGroup
+        android:id="@+id/rgTags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btSubmit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <RadioButton
+            android:id="@+id/rbMalls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+
+            android:text="@string/malls" />
+
+        <RadioButton
+            android:id="@+id/rbMovies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+
+            android:text="@string/movies" />
+
+        <RadioButton
+            android:id="@+id/rbFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+
+            android:text="@string/food" />
+    </RadioGroup>
+
+
+
+</RelativeLayout>

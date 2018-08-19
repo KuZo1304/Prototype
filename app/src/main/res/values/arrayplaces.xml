@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Places" textsize="18sp">
+        <item>Kondhwa</item>
+        <item>Katraj</item>
+        <item>Pune_Camp</item>
+    </string-array>
+</resources>

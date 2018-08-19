@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    tools:context="com.example.kuzo.prototype.MainActivity">
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="134dp"
+        android:layout_height="42dp"
+        android:onClick="onLoginClick"
+        android:text="Login"
+        android:textColor="#54F9FF"
+        android:background="@drawable/button1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="249dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btSign"
+        android:layout_width="134dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="38dp"
+        android:onClick="onSignupClick"
+        android:text="Signup"
+        android:textColor="#54F9FF"
+        android:background="@drawable/button1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/bLogin"
+        android:layout_alignStart="@+id/bLogin" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etPassword"
+        android:layout_alignLeft="@+id/etPassword"
+        android:layout_alignStart="@+id/etPassword"
+        android:layout_marginBottom="47dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/user"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:drawableLeft="@drawable/lock"
+        android:inputType="textPassword"
+        android:layout_above="@+id/bLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp" />
+
+</RelativeLayout>
